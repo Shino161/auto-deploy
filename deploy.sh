@@ -1,6 +1,6 @@
 #!/bin/bash
 
-WEB_PATH='/root/tools/'$1
+WEB_PATH='/root/'$1
 WEB_USER='root'
 WEB_USERGROUP='root'
 
