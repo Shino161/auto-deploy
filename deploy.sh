@@ -16,5 +16,6 @@ chown -R $WEB_USER:$WEB_USERGROUP $WEB_PATH
 echo "install npm packages..."
 yarn
 npm run build
+pm2 stop $1
 npm run start
 echo "Finished."
