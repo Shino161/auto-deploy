@@ -14,7 +14,7 @@ git checkout master
 echo "changing permissions..."
 chown -R $WEB_USER:$WEB_USERGROUP $WEB_PATH
 echo "install npm packages..."
-yarn
+npm i
 npm run build
 pm2 stop $1
 npm run start
